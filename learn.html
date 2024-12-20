@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  abbr {
+    font-style: italic;
+    color: chocolate;
+  }
+
+  /* aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+  } */
+
+  aside>p {
+    margin: 1rem;
+  }
+
+  button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    /* float: right; */
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2) 30%,
+        rgba(0, 0, 0, 0));
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+  button:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
+
+  button:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+  del {
+    text-decoration: line-through;
+    background-color: #fbb;
+    color: #555;
+  }
+
+  ins {
+    text-decoration: none;
+    background-color: #d4fcbc;
+  }
+
+  blockquote {
+    padding-left: 15px;
+    border-left: 3px solid #d7d7db;
+    font-size: 1rem;
+  }
+
+  legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+  }
+  select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+  color: chocolate;
+  background-color: gainsboro;
+}
+</style>
+
+<body>
+  <!-- using for <abbr> tag</abbr> -->
+  <p>
+    You can use <abbr>CSS</abbr> (Cascading Style Sheets) to style your <abbr>HTML</abbr> (HyperText Markup Language).
+    Using style sheets, you can keep your <abbr>CSS</abbr> presentation layer and <abbr>HTML</abbr> content layer
+    separate. This is called "separation of concerns."
+  </p>
+  <br>
+  <!-- using Anchor tag -->
+
+  <a href="https://www.msn.com/en-in/feed?ocid=msedgntp&pc=u531" target="_blank">brawo</a>
+  <br>
+  <!-- using address tag -->
+  <address>
+    You can contact author at
+    <a href="http://www.example.com/contact">www.example.com</a>.<br />
+    If you see any bugs, please
+    <a href="mailto:webmaster@example.com">contact webmaster</a>.<br />
+    You may also want to visit us:<br />
+    Mozilla Foundation<br />
+    331 E Evelyn Ave<br />
+    Mountain View, CA 94041<br />
+    USA
+  </address>
+  <br>
+  <aside>
+    <p>The Rough-skinned Newt defends itself with a deadly neurotoxin.</p </aside>
+    <br>
+
+    <audio src="./O Mahi O Mahi_320(PagalWorld.com.sb).mp3" controls width="400" loop></audio>
+    </br>
+    <!-- <a href="/media/cc0-audio/t-rex-roar.mp3"> Download audio </a> -->
+
+    <form>
+      <input type="text" placeholder="---enter your name---"></input>
+      <br>
+      <input type="radio" value="male" name="Class">male</input></br>
+      <input type="radio" value="male" name="Class">female</input></br>
+      <!-- using for checkbox in input type -->
+      <label for="a">
+        <input type="checkbox" value="java" name="course" id="a">java</input>
+        <label for="b">
+          <input type="checkbox" value="HTML" name="course" id="b">HTML</input>
+        </label>
+        <label for="c">
+          <input type="checkbox" value="CSS" name="course" id="c">CSS</input>
+        </label>
+        <label for="d">
+          <input type="checkbox" value="React.js" name="course" id="d">React.js</input>
+          <br>
+
+          <!-- textarea using for create a box mesinsion any type of field -->
+          <textarea name="_blank" id="l" width="20px" placeholder="mension ur name"></textarea>
+        </label>
+    </form>
+    <br>
+    <button name="button">Add to card</button>
+    <br>
+    <!-- The <del> HTML element represents a range of text that has been deleted from a document. This can be used when rendering "track changes" or source code diff information, -->
+    <!-- <blockquote>
+    There is <del>nothing</del> <ins>no code</ins> either good or bad, but <del>thinking</del> <ins>running it</ins>
+    makes
+    it so.
+  </blockquote> -->
+    <br>
+    <!-- fieldset means create by square in surround a name  -->
+    <!-- <fieldset>
+    <legend>Choose your favorite monster</legend>
+  </fieldset> -->
+    <br>
+    <title>nilesh valhe is invester</title>
+    <br>
+    <video src="http://www.youtube.com/watch?v=5KPzQPOenMY&list=RD5KPzQPOenMY&start_radio=1" controls loop muted></video>
+    <br>
+    <select id="pet-select" >
+      <option value="">--Please choose your country--</option>
+      <option value="dog">India </option>
+      <option value="cat">BHarat</option>
+      <option value="hamster">Hindustan</option>
+      <option value="parrot">hastinapur</option>
+      <option value="spider">aaryamandesh</option>
+      <option value="goldfish">sindh desh</option>
+    </select>
+
+</body>
+
+</html>
